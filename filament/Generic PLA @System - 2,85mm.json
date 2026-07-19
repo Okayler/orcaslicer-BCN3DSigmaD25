@@ -1,0 +1,21 @@
+{
+	"compatible_printers": [
+		"MyMarlin 0.4 nozzle"
+	],
+	"filament_diameter": [
+		"2.85"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"Generic PLA @System - 2,85mm"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @System",
+	"name": "Generic PLA @System - 2,85mm",
+	"pellet_flow_coefficient": [
+		"0.156755"
+	],
+	"version": "2.4.0.3"
+}

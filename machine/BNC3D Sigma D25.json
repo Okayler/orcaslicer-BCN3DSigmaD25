@@ -1,0 +1,152 @@
+{
+	"default_nozzle_volume_type": [
+		"Standard",
+		"Standard"
+	],
+	"deretraction_speed": [
+		"35",
+		"35"
+	],
+	"extruder_clearance_height_to_rod": "12",
+	"extruder_colour": [
+		"#FCE94F",
+		"#FCE94F"
+	],
+	"extruder_offset": [
+		"0x0",
+		"0x0"
+	],
+	"extruder_printable_height": [
+		"0",
+		"0"
+	],
+	"extruder_type": [
+		"Direct Drive",
+		"Direct Drive"
+	],
+	"extruder_variant_list": [
+		"Direct Drive Standard",
+		"Direct Drive Standard"
+	],
+	"from": "User",
+	"inherits": "MyMarlin 0.4 nozzle",
+	"long_retractions_when_cut": [
+		"0",
+		"0"
+	],
+	"machine_end_gcode": "M104 S0 T0\nM104 S0 T1\nM140 S0\nG91\nG1 Z+0.5 E-5 Y+10 F12000\nG28 X0 Y0\nM84\nG90",
+	"machine_start_gcode": ";Machine Model: BCN3D Sigma D25\n;Materials used: PLA\n;Materials brand: Generic\n;Extruders used: 0.4\n;Print mode: regular\nT0 ; Weckt den linken Extruder explizit auf\nM141 S[chamber_temperature]\nM140 S[first_layer_bed_temperature]\nM104 T0 S[first_layer_temperature]\nM190 S[first_layer_bed_temperature]\nM109 T0 S[first_layer_temperature]\nG21\nG90\nM107\nG28 X0 Y0\nG28 Z0\nG1 Z5 F200\nG4 P1\nG4 P2\nG4 P3",
+	"max_layer_height": [
+		"0.32",
+		"0.32"
+	],
+	"min_layer_height": [
+		"0.08",
+		"0.08"
+	],
+	"name": "BNC3D Sigma D25",
+	"nozzle_diameter": [
+		"0.4",
+		"0.4"
+	],
+	"nozzle_flush_dataset": [
+		"nil",
+		"0"
+	],
+	"nozzle_type": [
+		"stainless_steel",
+		"undefine"
+	],
+	"nozzle_volume": [
+		"nil",
+		"0"
+	],
+	"printable_area": [
+		"0x0",
+		"420x0",
+		"420x300",
+		"0x300"
+	],
+	"printable_height": "200",
+	"printer_extruder_id": [
+		"1",
+		"2"
+	],
+	"printer_extruder_variant": [
+		"Direct Drive Standard",
+		"Direct Drive Standard"
+	],
+	"printer_settings_id": "BNC3D Sigma D25",
+	"purge_in_prime_tower": "0",
+	"retract_before_wipe": [
+		"70%",
+		"70%"
+	],
+	"retract_length_toolchange": [
+		"1",
+		"1"
+	],
+	"retract_lift_above": [
+		"0",
+		"0"
+	],
+	"retract_lift_below": [
+		"0",
+		"0"
+	],
+	"retract_lift_enforce": [
+		"All Surfaces",
+		"All Surfaces"
+	],
+	"retract_restart_extra": [
+		"0",
+		"0"
+	],
+	"retract_restart_extra_toolchange": [
+		"0",
+		"0"
+	],
+	"retract_when_changing_layer": [
+		"1",
+		"1"
+	],
+	"retraction_distances_when_cut": [
+		"18",
+		"18"
+	],
+	"retraction_length": [
+		"4",
+		"4"
+	],
+	"retraction_minimum_travel": [
+		"1",
+		"1"
+	],
+	"retraction_speed": [
+		"45",
+		"45"
+	],
+	"single_extruder_multi_material": "0",
+	"support_chamber_temp_control": "0",
+	"travel_slope": [
+		"3",
+		"3"
+	],
+	"version": "2.4.0.1",
+	"wipe": [
+		"0",
+		"0"
+	],
+	"wipe_distance": [
+		"1",
+		"1"
+	],
+	"z_hop": [
+		"0.4",
+		"0.4"
+	],
+	"z_hop_types": [
+		"Slope Lift",
+		"Slope Lift"
+	]
+}

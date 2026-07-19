@@ -1,0 +1,23 @@
+{
+	"from": "User",
+	"gap_infill_speed": "45",
+	"inherits": "0.15mm Optimal @MyMarlin",
+	"initial_layer_infill_speed": "30",
+	"initial_layer_speed": "22.5",
+	"inner_wall_speed": "33.8",
+	"internal_solid_infill_speed": "45",
+	"name": "0.15mm Optimal @MyMarlin - Kopieren",
+	"outer_wall_speed": "22.5",
+	"print_extruder_id": [
+		"1"
+	],
+	"print_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"print_settings_id": "0.15mm Optimal @MyMarlin - Kopieren",
+	"sparse_infill_speed": "45",
+	"support_interface_speed": "30",
+	"support_speed": "45",
+	"top_surface_speed": "33.8",
+	"version": "2.4.0.1"
+}
